@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.getDiscount {
+  display: flex;
+  padding: 32px 32px 0px 32px;
+  margin-left: 110px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  height: 500px;
+  width: 1360px;
+  border-radius: 12px;
+  background: green;
+}
+
+.getDiscountH1 {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.getDiscountContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.getDiscountImg {
+  flex: 1;
+  width: 748px;
+  height: 360px;
+  margin-top: 29px;
+}
+
+.getDiscountBtns {
+  margin-top: 40px;
+}
+.getDiscountNameBtn,
+.getDiscountPhoneBtn,
+.getDiscountEmailBtn {
+  display: flex;
+  margin: 16px;
+  padding: 16px 32px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: green;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 516px;
+  height: 50px;
+  margin-right: 32px;
+}
+
+.getDiscountNameBtn::placeholder,
+.getDiscountPhoneBtn::placeholder,
+.getDiscountEmailBtn::placeholder {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.getDiscountBtn {
+  display: flex;
+  margin: 32px;
+  padding: 16px 32px;
+  justify-content: center;
+  border-radius: 6px;
+  border: 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 516px;
+  margin-right: 32px;
+}
+
+.getDiscountBtn:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: black;
+  box-shadow: 1px 1px 30px 5px white;
+}
