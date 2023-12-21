@@ -1,17 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
-/* font-family: 'Montserrat', sans-serif; */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 128px;
+  border-bottom: 1px solid #ddd;
 }
 
 .logo {
@@ -31,9 +23,15 @@
 }
 
 .headerMenuP {
-  margin-left: 61px;
+  margin-left: 32px;
+  color: black;
+  text-decoration: none;
   font-size: 20px;
   cursor: pointer;
+}
+.linkP {
+  color: black;
+  text-decoration: none;
 }
 
 .headerMenuP:hover {

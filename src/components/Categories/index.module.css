@@ -1,24 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
-/* font-family: 'Montserrat', sans-serif; */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .categories {
+  display: grid;
   width: 100%;
   height: 680px;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .categoriesHR {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1600px;
+  max-width: 1560px;
+  height: 70px;
+  margin-top: -20px;
 }
 
 .categoriesText {
@@ -29,15 +23,16 @@
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 32px;
+  align-items: center;
   cursor: default;
 }
 
 .categoriesLine {
-  flex: 1;
+  flex: 2;
   margin-top: 72px;
   border: none;
   border-top: 1px solid #dddddd;
-  width: 832px;
+  width: 1132px;
 }
 
 .allCategoriesBtn {
@@ -63,12 +58,12 @@
 }
 
 .categoriesImgAndP {
-  display: flex;
-  margin-top: 40px;
+  display: grid;
   justify-content: center;
-  align-items: baseline;
-  gap: 32px;
+  margin-top: 40px;
+  grid-template-columns: repeat(4, 1fr);
   font-family: "Montserrat", sans-serif;
+  max-width: 1760px;
 }
 
 .categoriesImg {
@@ -92,4 +87,51 @@
   font-size: 20px;
   margin-top: 16px;
   text-align: center;
+}
+.allProductsSwitchMenu {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 365px;
+  height: 36px;
+}
+
+.switchToMenu,
+.stayAllProducts {
+  display: flex;
+  padding: 8px 16px;
+  width: 128px;
+  height: 36px;
+
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #8b8b8b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 126%;
+}
+.stayAllProducts {
+  color: black;
+  width: 141px;
+  height: 36px;
+}
+
+.switchHr {
+  border-bottom: 1px solid #ddd;
+  width: 16px;
+}
+
+.allProductsFilter {
+  display: flex;
+  width: 1360px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
 }
